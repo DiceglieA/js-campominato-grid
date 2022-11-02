@@ -5,4 +5,8 @@ for ( let i = 1; i <= 100; i++) {
     eleCell.classList.add('cell')
     eleCell.innerHTML = `${i}`
     eleGrid.append(eleCell)
+
+    eleCell.addEventListener('click', function () {
+        this.classList.toggle('active')  
+    }) 
 }

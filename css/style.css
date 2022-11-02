@@ -8,6 +8,30 @@ body {
     height: 100vh;
 }
 
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 1rem 1rem;
+}
+
+.head-left {
+    display: flex;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.head-right {
+    display: flex;
+}
+
+.difficulty {
+    margin: 0 .5rem;
+    width: 100px;
+}
+
 main {
     background-color: aqua;
 }
@@ -30,8 +54,15 @@ main {
     border: 2px solid black;
     height: calc(100% / 10);
     width: calc(100% / 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cell.active {
     background-color: blue;
+}
+
+footer {
+    height: 50px;
 }
