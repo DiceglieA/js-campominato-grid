@@ -52,8 +52,9 @@ main {
 
 .cell {
     border: 2px solid black;
-    height: calc(100% / 10);
-    width: calc(100% / 10);
+    /* height: calc(100% / 10);
+    width: calc(100% / 10); */
+    aspect-ratio: 1/1;
     display: flex;
     justify-content: center;
     align-items: center;
